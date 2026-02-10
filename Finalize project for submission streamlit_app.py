@@ -1,3 +1,6 @@
+import streamlit as st
+st.title("customer churn prediction App")
+st.markdown("""
 ## 📉 Customer Churn Prediction Project – End-to-End ML & Streamlit App
 
 ### 🔍 Overview
@@ -8,12 +11,12 @@ This project builds an end-to-end machine learning solution to predict customer 
 
 ## 🚀 Features
 
-* 🔮 Real-time **churn probability prediction**
-* 📊 **Probability visualization**
-* 📌 **Feature importance dashboard**
-* 🔁 **What-if scenario simulator**
-* 📈 Model evaluation with Accuracy, Precision, Recall, F1-score, ROC-AUC
-* 🧠 Model explainability
+#* 🔮 Real-time **churn probability prediction**
+#* 📊 **Probability visualization**
+#* 📌 **Feature importance dashboard**
+#* 🔁 **What-if scenario simulator**
+#* 📈 Model evaluation with Accuracy, Precision, Recall, F1-score, ROC-AUC
+#* 🧠 Model explainability
 
 ---
 
@@ -160,4 +163,4 @@ numpy
 scikit-learn
 matplotlib
 joblib
-```
+``` """)
